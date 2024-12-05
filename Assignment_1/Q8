@@ -1,0 +1,4 @@
+#!/bin/bash
+read -p "Enter the directory path: " dir
+find "$dir" -type f -empty
+

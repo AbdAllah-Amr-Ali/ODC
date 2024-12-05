@@ -1,0 +1,8 @@
+#!/bin/bash
+read -p "Enter array elements (space-separated): " -a arr
+sum=0
+for num in "${arr[@]}"; do
+  sum=$((sum + num))
+done
+echo "The sum of array elements is: $sum"
+

@@ -1,0 +1,6 @@
+#!/bin/bash
+read -p "Enter the filename: " filename
+read -p "Enter the word to search: " word
+count=$(grep -o -w "$word" "$filename" | wc -l)
+echo "The word '$word' appears $count times in $filename."
+

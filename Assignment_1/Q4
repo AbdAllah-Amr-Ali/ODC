@@ -1,0 +1,2 @@
+stdout: Standard output stream used for normal output 
+stderr: Standard error stream used for error messages 
